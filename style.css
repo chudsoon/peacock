@@ -6357,3 +6357,12 @@ button.close {
   border: 2px solid;
   margin-top: 10px;
 }
+.thumbnail {
+  position: relative;
+  height: 5%;
+  overflow: visible;
+}
+.thumbnail > img {
+  min-width: 100%;
+  height: auto;
+}
