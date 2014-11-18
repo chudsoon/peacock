@@ -1,0 +1,68 @@
+.navbar{
+	.RoundedShape(0px);
+	border: 0px;
+	border-bottom: @borderSize solid;
+	}
+	
+.navbar-brand {
+		padding: 0px;
+		margin: 0px;
+	}
+	
+.navbar {
+	> a {
+		color: #000;
+		}
+	.active > a {
+	border-top: @borderSize solid;
+		}
+	}
+.dropdown-menu {
+	border: 0px;
+	}
+	
+.social {
+	list-style-type: none;
+	float: right;
+	margin-top: 0;
+	padding: 0;
+		li {
+		
+			padding-top: @navbar-height / 4;
+			float: right;
+			margin-left: 15px;
+			
+			a {
+			display: block;
+			text-indent: -999999px;
+			width: 34px;
+			height: 34px;
+			background: url("images/social.jpg");
+			}
+			}
+	}		
+
+	
+
+
+.social #facebook a {
+	background-position: @facebook-bg-default-position;
+	&:hover {
+		background-position: @facebook-bg-hover-position;
+		}
+	}
+.social #twitter a {
+	background-position: @twitter-bg-default-position;
+	&:hover {
+		background-position: @twitter-bg-hover-position;
+		}
+	}
+.social #googleplus a {
+	background-position: @googleplus-bg-default-position;
+		&:hover {
+		background-position: @googleplus-bg-hover-position;
+		}
+	}
+	
+
+
