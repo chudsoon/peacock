@@ -6353,3 +6353,7 @@ button.close {
 .jumbotron p {
   font-style: italic;
 }
+.content-box {
+  border: 2px solid;
+  margin-top: 10px;
+}
