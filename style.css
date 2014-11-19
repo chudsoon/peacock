@@ -6354,15 +6354,13 @@ button.close {
   font-style: italic;
 }
 .content-box {
-  border: 2px solid;
   margin-top: 10px;
+  height: 100%;
 }
 .thumbnail {
-  position: relative;
-  height: 5%;
-  overflow: visible;
+  height: 25vh;
 }
 .thumbnail > img {
-  min-width: 100%;
-  height: auto;
+  max-height: 100%;
+  max-width: 100%;
 }
