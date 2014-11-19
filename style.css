@@ -6294,7 +6294,7 @@ button.close {
   -moz-border-radius: 0px;
   border-radius: 0px;
   border: 0px;
-  border-bottom: 2px solid;
+  border-bottom: 1px solid;
 }
 .navbar-brand {
   padding: 0px;
@@ -6304,7 +6304,7 @@ button.close {
   color: #000;
 }
 .navbar .active > a {
-  border-top: 2px solid;
+  border-top: 1px solid;
 }
 .dropdown-menu {
   border: 0px;
@@ -6364,4 +6364,27 @@ button.close {
   border-color: #000;
   color: #000;
   background-color: #fff;
+}
+.bottom {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+.bottom > .contact p h4 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  /* align horizontal */
+  align-items: center;
+}
+.footer {
+  background-color: #000;
+  color: #fff;
+  min-width: 100%;
+}
+.top-button {
+  max-height: 80px;
+  max-width: 80px;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
 }
