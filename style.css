@@ -6357,10 +6357,6 @@ button.close {
   margin-top: 10px;
 }
 .thumbnail > img {
-  display: block;
-  height: 200px;
-  /* add this */
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100%;
+  min-width: 100%;
+  max-width: 50px;
 }
