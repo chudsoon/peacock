@@ -26,35 +26,42 @@
 			<div class="col-md-12">
 				<div class="navbar navbar-default" role="navigation" id="navbar">
 					<div class="container-fluid">
-							<div class="navbar-header">	
-								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
-									<span class="sr-only">Toggle Navigation</span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-								</button>
-								<a class="navbar-brand" href="#"><img src="<?php bloginfo('template_url'); ?>/images/logo.gif"></a>
-							</div>	
-							<div class="collapse navbar-collapse" id="navbar-collapse-1">
-								<?php /* Primary navigation */
+					
+						<div class="navbar-header">	
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+								<span class="sr-only">Toggle Navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="#"><img src="<?php bloginfo('template_url'); ?>/images/logo.gif"></a>
+						</div>
+						
+						<div class="collapse navbar-collapse" id="navbar-collapse-1">
+							<?php
 								wp_nav_menu( array(
-  								'menu' => 'top_menu',
-  								'depth' => 2,
-  								'container' => false,
-  								'menu_class' => 'nav',
-  								//Process nav menu using our custom nav walker
-  								'walker' => new wp_bootstrap_navwalker())
+									'menu'              => 'primary',
+									'theme_location'    => 'primary',
+									'depth'             => 2,
+									'container'         => 'navbar-collapse-1',
+									'container_class'   => 'collapse navbar-collapse',
+									'container_id'      => 'navbar-collapse-1',
+									'menu_class'        => 'nav navbar-nav',
+									'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+									'walker'            => new wp_bootstrap_navwalker())
 								);
-								?>
-								<ul class="social">
+							?>
+							<ul class="social">
 								<li id="googleplus"><a href="#">Google Plus</a></li>
 								<li id="twitter"><a href="#">Twitter</a></li>
 								<li id="facebook"><a href="#">Facebook</a></li>
-								
-								</ul>
-							
-							</div>
+							</ul>
+						</div>
+	
 					</div>
+					
 				</div>	
+			
 			</div>
-		</div>
+			
+</div>
