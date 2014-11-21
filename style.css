@@ -1,3 +1,4 @@
+/* Theme Name: Peacock */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -6376,10 +6377,9 @@ button.close {
   /* align horizontal */
   align-items: center;
 }
-.footer {
+.foote {
   background-color: #000;
   color: #fff;
-  min-width: 100%;
 }
 .top-button {
   max-height: 80px;
