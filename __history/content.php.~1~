@@ -1,0 +1,38 @@
+	<div class="row">
+			<div class="content-box">
+			 <div class="col-lg-4 col-sm-6 col-xs-12">
+				<div class="thumbnail">
+					<a href="#">
+						<img src="http://www.earmarkinvitations.com/images/products/pen-practice-awesome.jpg"  class="img-responsive"  data-src="holder.js/100%x400">
+					</a>
+					<div class="caption">
+						<h3>Thumbnail Label</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla nisi at magna fringilla fringilla. Aliquam eleifend vestibulum leo, et interdum nibh viverra a. Sed id turpis eu mauris rutrum lacinia non vitae velit. Donec at velit at mi fermentum dignissim. Quisque eros nunc, consequat a quam a, suscipit tincidunt justo. Sed auctor augue eros, sit amet faucibus odio ultrices eget. Maecenas aliquet ut dui ac hendrerit. Aenean id mauris accumsan, rutrum velit sit amet, porttitor leo. Phasellus dapibus, libero a auctor scelerisque, diam dui eleifend justo, sit amet euismod odio turpis ut nulla.</p>
+						<a class="btn btn-primary" href="#" role="button">Read more</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6 col-xs-12">
+				<div class="thumbnail">
+					<a href="#">
+						<img src="http://ewallpapershub.com/wp-content/gallery/cool-colored-pencils/cool-colored-pencils-image.jpg" class="img-responsive">
+					</a>
+					<div class="caption">
+						<h3>Thumbnail Label</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla nisi at magna fringilla fringilla. Aliquam eleifend vestibulum leo, et interdum nibh viverra a. Sed id turpis eu mauris rutrum lacinia non vitae velit. Donec at velit at mi fermentum dignissim. Quisque eros nunc, consequat a quam a, suscipit tincidunt justo. Sed auctor augue eros, sit amet faucibus odio ultrices eget. Maecenas aliquet ut dui ac hendrerit. Aenean id mauris accumsan, rutrum velit sit amet, porttitor leo. Phasellus dapibus, libero a auctor scelerisque, diam dui eleifend justo, sit amet euismod odio turpis ut nulla.</p>
+						<a class="btn btn-primary" href="#" role="button">Read more</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6 col-xs-12">
+				<div class="thumbnail">
+					<a href="#">
+						<img src="http://itop.freewallpaper-s.net/wp-content/uploads/wallpapers/Colored-pencils-colorful-pen-stationary-top-wallpapers-800x600.jpg" class="img-responsive">
+					</a>
+					<div class="caption">
+						<h3>Thumbnail Label</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla nisi at magna fringilla fringilla. Aliquam eleifend vestibulum leo, et interdum nibh viverra a. Sed id turpis eu mauris rutrum lacinia non vitae velit. Donec at velit at mi fermentum dignissim. Quisque eros nunc, consequat a quam a, suscipit tincidunt justo. Sed auctor augue eros, sit amet faucibus odio ultrices eget. Maecenas aliquet ut dui ac hendrerit. Aenean id mauris accumsan, rutrum velit sit amet, porttitor leo. Phasellus dapibus, libero a auctor scelerisque, diam dui eleifend justo, sit amet euismod odio turpis ut nulla.</p>
+						<a class="btn btn-primary" href="#" role="button">Read more</a>
+					</div>
+				</div>
+			</div>
