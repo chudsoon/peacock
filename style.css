@@ -6357,7 +6357,7 @@ button.close {
 .content-box {
   margin-top: 2em;
 }
-.content-box > img {
+.thumbnail > img {
   width: 800;
   height: 600;
 }
@@ -6365,6 +6365,15 @@ button.close {
   border-color: #000;
   color: #000;
   background-color: #fff;
+}
+.thmb {
+  overflow: hidden;
+}
+.thmb > img {
+  max-width: 180px;
+  max-height: 180px;
+  float: left;
+  margin: 10px;
 }
 .bottom {
   border-top: 1px solid;
