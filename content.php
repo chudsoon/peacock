@@ -20,7 +20,7 @@ if (have_posts()) :
 						</a>
 						<div class="caption">
 							<h3><?php the_title(); ?></h3>
-							<p> <?php the_content('<span class="btn btn-primary" role="button">Read more</span>'); ?></p>
+							<p> <?php the_excerpt('<span class="btn btn-primary" role="button">Read more</span>'); ?></p>
 						
 							
 						</div>

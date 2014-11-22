@@ -20,7 +20,7 @@ add_theme_support( 'post-thumbnails' );
 // Changing excerpt more
    function new_excerpt_more($more) {
    global $post;
-   return '… <a href="'. get_permalink($post->ID) . '">' . 'Read More &raquo;' . '</a>';
+   return '… <a href="'. get_permalink($post->ID) . '">' . '<br><span class="btn btn-primary">Read More &raquo;</span>' . '</a>';
    }
    add_filter('excerpt_more', 'new_excerpt_more');
 
