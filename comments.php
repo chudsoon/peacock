@@ -12,7 +12,8 @@
 							<span class="content"><p><?php echo $comment->comment_content; ?></p></span>
 							</div>
 							<?php endforeach; ?>
-							<?php if ($comment == 0)
+							<?php // happens when no comments
+							if ($comment == 0)
 							
 							echo "No entries";
 							
