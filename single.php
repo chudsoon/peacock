@@ -30,13 +30,15 @@ if (have_posts()) :
 									
 								</div><!--caption-->
 							
-					
-							
-							
-							
-						
+									
 						</div><!-- col-md-12 thumbnail -->
+					
+						<div class="col-md-12">
+						
+							<?php include('comments.php'); ?>
+					
 				</div><!--col-md-12-->
+				
 				
 				
 				

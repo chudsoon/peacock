@@ -4599,7 +4599,7 @@ a.badge:focus {
 .jumbotron {
   padding: 30px 15px;
   margin-bottom: 30px;
-  color: #000000;
+  color: inherit;
   background-color: #eeeeee;
 }
 .jumbotron h1,
@@ -6288,6 +6288,7 @@ button.close {
   }
 }
 /****constants****/
+/****BRIGHTER***/
 /****DARKER****/
 /****OPERATIONS****/
 .navbar {
@@ -6349,7 +6350,7 @@ button.close {
 .jumbotron {
   background-color: #ffffff;
   text-align: center;
-  color: #000000;
+  color: inherit;
 }
 .jumbotron p {
   font-style: italic;
@@ -6375,6 +6376,29 @@ button.close {
   float: left;
   margin: 10px;
 }
+/*comments*/
+.comments {
+  margin-top: 2em;
+}
+.comments > .comment {
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  margin-bottom: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.comments > .comment > .author {
+  font-weight: bold;
+  color: #333333;
+}
+.comments > .comment > .avatar {
+  float: left;
+  padding: 0.5em;
+}
+.comments > .comment > .date {
+  font-style: italic;
+  color: #4d4d4d;
+}
 .bottom {
   border-top: 1px solid;
   border-bottom: 1px solid;
@@ -6387,6 +6411,7 @@ button.close {
   align-items: center;
 }
 .foote {
+  margin-top: 2em;
   background-color: #000;
   color: #fff;
 }

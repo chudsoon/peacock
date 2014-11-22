@@ -30,3 +30,31 @@
 			margin: 10px;
 			}
 	}
+	
+/*comments*/
+
+.comments {
+	margin-top: 2em;
+	
+	> .comment {
+		border: 1px solid @thumbnail-border;
+		border-radius: @thumbnail-border-radius;
+		margin-bottom: 1em;
+		padding-top: 1em;
+		padding-bottom: 1em;
+			> .author {
+				font-weight: bold;
+				color: @default-color-bright;
+				}
+			> .avatar {
+				float: left;
+				padding: 0.5em;
+				
+				}
+			> .date {
+				font-style: italic;
+				color: @default-color-brighter;
+				}
+		}
+	}
+	
