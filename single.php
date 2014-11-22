@@ -1,8 +1,11 @@
 
 <?php
-get_header();
-
+get_header(); ?>
+<div class="row">
+			<div class="content-box">
+<?php
 // checks if there are any posts that match the query
+
 if (have_posts()) :
 
   // If there are posts matching the query then start the loop
@@ -10,18 +13,19 @@ if (have_posts()) :
 
     // the code between the while loop will be repeated for each post
     ?>
-		<div class="row">
-			<div class="content-box">			
+					
 				 <div class="col-md-12" id="post-<?php the_ID(); ?>">
 					<div class="thumbnail">
-						
-						<div class="caption">
-							<h3><?php the_title(); ?></h3>
-							<p> <?php the_content(); ?></p>
-						
+						<div class="col-md-10">
 							
+							<div class="caption">
+								<h3><?php the_title(); ?></h3>
+								<p> <?php the_content(); ?></p>
+								
+							</div>
+							</div> <!-- col-md-10 -->
 						</div>
-					</div>
+					
 				</div>
 				
  <?php
