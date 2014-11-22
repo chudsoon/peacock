@@ -10,7 +10,8 @@ if (have_posts()) :
 
     // the code between the while loop will be repeated for each post
     ?>
-				
+		<div class="row">
+			<div class="content-box">			
 				 <div class="col-md-12" id="post-<?php the_ID(); ?>">
 					<div class="thumbnail">
 						

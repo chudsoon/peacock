@@ -30,3 +30,9 @@ add_theme_support( 'post-thumbnails' );
     require_once('wp_bootstrap_navwalker.php');
 ?>
 
+<?php  // register footer
+	function footer() {
+    echo '<p>This is inserted at the bottom</p>';
+}
+add_action('wp_footer', 'footer');
+?>
