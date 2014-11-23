@@ -18,4 +18,10 @@
 							echo "No entries";
 							
 							?>
-						</div><!--comments-->
+							
+							<?php 
+								comment_form();
+							?>
+						
+						
+</div><!--comments-->
