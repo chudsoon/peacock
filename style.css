@@ -6410,10 +6410,13 @@ button.close {
   /* align horizontal */
   align-items: center;
 }
-.foote {
+.footer {
   margin-top: 2em;
   background-color: #000;
   color: #fff;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
 }
 .scrollToTop {
   margin-bottom: 0.5em;

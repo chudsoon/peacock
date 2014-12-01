@@ -9,8 +9,10 @@
 		
 			<div class="row">
 				<div class="col-md-12">
-					<div class="foote">
-					<p>dgsdgdfghfhd<?php wp_footer(); ?></p>
+					<div class="footer">
+
+					<p><?php wp_footer(); ?></p>
+					
 					</div>
 				</div>
 			</div>
