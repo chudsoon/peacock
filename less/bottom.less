@@ -17,23 +17,18 @@
 	}
 
 
-.top-button {
-
-	max-height: 80px;
-	max-width: 80px;
-	
+.scrollToTop{
+	margin-bottom: 0.5em;
+	margin-right: 0.5em;
 	position: fixed;
     bottom: 0px;
     right: 0px; 
+	display: none;
+	> img {
+		max-height: 45px;
+		max-width: 45px;
 	}
-
-#top-link-block.affix-top {
-    position: absolute; /* allows it to "slide" up into view */
-    bottom: -82px;
-    left: 10px;
 }
-#top-link-block.affix {
-    position: fixed; /* keeps it on the bottom once in view */
-    bottom: 18px;
-    left: 10px;
+.scrollToTop:hover{
+	text-decoration:none;
 }
