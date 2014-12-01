@@ -71,4 +71,9 @@ add_action('comment_form', 'bootstrap3_comment_button' ); //comment-form submit 
 function bootstrap3_comment_button() {
     echo '<button class="btn btn-default" type="submit">' . __( 'Submit' ) . '</button>';
 }
+
+function theme_enqueue_script(){ 
+    wp_enqueue_script('jquery');  
+}
+add_action('wp_enqueue_scripts', 'theme_enqueue_script');
 ?>

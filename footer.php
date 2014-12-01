@@ -1,7 +1,13 @@
-			<div class="col-md-12 hidden-xs">
-				<a href="#navbar"><img src="http://1.bp.blogspot.com/-Uy7rJ-k9pmY/Uvo_7PHNNhI/AAAAAAAAANU/Bq8jQoS-M4M/s1600/backTopOff.png" class="top-button"></a>
+
+
+
+		<span id="top-link-block" class="">
+			<div class="col-md-12 hidden-xs"  onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+				<a href="#navbar"><img class="top-button" src="http://1.bp.blogspot.com/-Uy7rJ-k9pmY/Uvo_7PHNNhI/AAAAAAAAANU/Bq8jQoS-M4M/s1600/backTopOff.png"></a>
 			</div>
+		</span>
 		</div>
+		
 		</div>
 		
 			<div class="row">
