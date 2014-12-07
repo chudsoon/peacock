@@ -21,7 +21,8 @@
     <![endif]-->
 </head>
 
-<body>
+<?php echo '<body class="'.join(' ', get_body_class()).'">'.PHP_EOL; ?>
+
 	<div class="container" >
 		<div class="row" id="nav">
 			<div class="col-md-12">

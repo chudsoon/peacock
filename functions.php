@@ -1,4 +1,7 @@
 <?php
+add_action('wp_head', 'mbe_wp_head');
+add_filter('body_class', 'mbe_body_class');
+
 /* Theme setup */
 add_action( 'after_setup_theme', 'wpt_setup' );
     if ( ! function_exists( 'wpt_setup' ) ):
@@ -105,5 +108,25 @@ $copyright .= '-' . $copyright_dates[0]->lastdate;
 $output = $copyright;
 }
 return $output;
+}
+?>
+<?php //solving wp admin bar issue
+function mbe_body_class($classes){
+    if(is_user_logged_in()){
+        $classes[] = 'body-logged-in';
+    } else{
+        $classes[] = 'body-logged-out';
+    }
+    return $classes;
+}
+
+function mbe_wp_head(){
+    echo '<style>'.PHP_EOL;
+    echo 'body{ padding-top: 70px !important; }'.PHP_EOL;
+    // Using custom CSS class name.
+    echo 'body.body-logged-in .navbar-fixed-top{ top: 28px !important; }'.PHP_EOL;
+    // Using WordPress default CSS class name.
+    echo 'body.logged-in .navbar-fixed-top{ top: 28px !important; }'.PHP_EOL;
+    echo '</style>'.PHP_EOL;
 }
 ?>
