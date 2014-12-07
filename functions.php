@@ -36,7 +36,7 @@ add_theme_support( 'post-thumbnails' );
 	$url = get_bloginfo('url');
 	$date = comicpress_copyright();
 	$copyright = $title . ' ' . $date;
-    echo '<p class="footer">Copyright <a href='.$url.'>'.$title.'</a> '.$date.' All Rights Reserved.</p>';
+    echo '<p>Copyright <a href='.$url.'>'.$title.'</a> '.$date.' All Rights Reserved.</p>';
 }
 add_action('wp_footer', 'footer');
 ?>

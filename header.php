@@ -22,10 +22,10 @@
 </head>
 
 <body>
-	<div class="container">
-		<div class="row">
+	<div class="container" >
+		<div class="row" id="nav">
 			<div class="col-md-12">
-				<div class="navbar navbar-default" role="navigation" id="navbar">
+				<div class="navbar navbar-default navbar-fixed-top" role="navigation">
 					<div class="container-fluid">
 					
 						<div class="navbar-header">	

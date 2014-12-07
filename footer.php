@@ -11,7 +11,7 @@
 				<div class="col-md-12">
 					<div class="footer">
 
-					<p><?php wp_footer(); ?></p>
+					<?php wp_footer(); ?>
 					
 					</div>
 				</div>
